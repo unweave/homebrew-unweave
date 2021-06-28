@@ -5,16 +5,16 @@
 class Unweave < Formula
   desc "Manage data like you manage code"
   homepage "https://unweave.io/"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/unweave/unweave/releases/download/v0.0.1/unweave_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "3ccff4b1f29e68d28ef865693df45f197d22e849cc270d571bd4a6dbdd410422"
+    url "https://github.com/unweave/unweave/releases/download/v0.0.2/unweave_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "ca1dfb04e0e56b472502649fd99f58c23ec2db9b9e19f8f5e517037e88f05b7c"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/unweave/unweave/releases/download/v0.0.1/unweave_0.0.1_Darwin_arm64.tar.gz"
-    sha256 "b8e0270b95f42676b51fc1a0550c95d0dedf41ddbc0a94a56d251e8480796be2"
+    url "https://github.com/unweave/unweave/releases/download/v0.0.2/unweave_0.0.2_Darwin_arm64.tar.gz"
+    sha256 "59d8012a29c16254422edb462e1305a82972f73cee4b710c2e4b1452e4fd6b0f"
   end
 
   def install
