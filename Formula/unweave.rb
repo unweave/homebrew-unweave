@@ -10,11 +10,11 @@ class Unweave < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/unweave/unweave/releases/download/v0.0.4/unweave_0.0.4_Darwin_x86_64.tar.gz"
-    sha256 "e0ff3e95c7ef36da90cff3feeffaea6ef82831c104050f315944f4303cfdbe58"
+    sha256 "a18bcb5f13561bf37f0eb2b515ce915d1bba87cf0369fdc770f70aaef075f226"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/unweave/unweave/releases/download/v0.0.4/unweave_0.0.4_Darwin_arm64.tar.gz"
-    sha256 "a4eaae7a18d9179561d7fcf29b1a4743bc8d5dd0addfc8d3afa415d15067e74f"
+    sha256 "855d40b6369e0153d58589a8afa7a96bd0299e12429fd36f9a11a44254f48de7"
   end
 
   def install
