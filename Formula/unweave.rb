@@ -12,11 +12,11 @@ class Unweave < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/unweave/unweave/releases/download/v0.0.6/unweave_0.0.6_Darwin_x86_64.tar.gz"
-      sha256 "e801edb51b73341827fa542cb10eb6864192ede2334f289b3ec66106b9c90dc2"
+      sha256 "1c1d28252fc1503a8c75ad2e20b7bdaf5df74c98f6b15b7d90f5ec825d9fb3a4"
     end
     if Hardware::CPU.arm?
       url "https://github.com/unweave/unweave/releases/download/v0.0.6/unweave_0.0.6_Darwin_arm64.tar.gz"
-      sha256 "c26da735f7a8bb90b3274555db51d4d10baaec0379a803f6f111d597e4751b07"
+      sha256 "99aec3ea874f2cea29f12798a751b3a7b8a830894b87aca672c2b9aeccb28080"
     end
   end
 
